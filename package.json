@@ -1,0 +1,16 @@
+{
+  "name": "gurkerl-wrapped",
+  "version": "1.0.0",
+  "description": "Gurkerl.at Statistics",
+  "type": "module",
+  "scripts": {
+    "download": "node download.js",
+    "viz": "node viz.js"
+  },
+  "author": "Felix De Montis <hi@felix.dm>",
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "got": "^12.0.0"
+  }
+}
