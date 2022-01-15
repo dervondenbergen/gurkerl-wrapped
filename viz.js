@@ -54,4 +54,4 @@ const optimizedGrießpuddingList = ordersOfLandliebeGrießpudding.flat().map(gri
 const totalWeight = optimizedGrießpuddingList.reduce((gramms, order) => gramms + order.weight, 0)
 const totalPrice = optimizedGrießpuddingList.reduce((cents, order) => cents + order.totalPrice, 0)
 
-console.log("Gesamtgewicht", totalWeight / 100, "kilogramm kosteten insgesamt", totalPrice / 100, "Euro");
+console.log("Gesamtgewicht", totalWeight / 1000, "kilogramm kosteten insgesamt", totalPrice / 100, "Euro");
